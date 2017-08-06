@@ -2,10 +2,6 @@
 #include "ec.h"
 #include "hash.h"
 
-int uint2int() {
-
-}
-
 int ecdsa_sign() {
     uint8_t priv_bytes[32] = {
             0x72, 0x22, 0x5d, 0x04, 0x0a, 0x89, 0x5f, 0x93,
