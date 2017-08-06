@@ -2,6 +2,7 @@
 #include "fixed-strings.c"
 #include "hashes.c"
 #include "varints.c"
+#include "vardata.c"
 
 int main() {
 
@@ -9,6 +10,7 @@ int main() {
     fixed();
     hashes();
     varints();
+    vardata();
 
     return 0;
 }
