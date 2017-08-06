@@ -1,6 +1,6 @@
 #include "common.h"
 
-int main() {
+int serialize() {
     uint8_t n8 = 0x01;
     uint16_t n16 = 0x4523;
     uint32_t n32 = 0xcdab8967;

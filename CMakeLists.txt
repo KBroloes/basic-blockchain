@@ -11,7 +11,7 @@ set(SOURCE_FILES
         ec.h
         endian.h
         hash.h
-        integers.c
+        main.c
         tx.h
         varint.h)
 
