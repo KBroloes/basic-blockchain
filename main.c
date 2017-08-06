@@ -5,6 +5,7 @@
 #include "vardata.c"
 #include "ec-keypair.c"
 #include "ecdsa-sign.c"
+#include "ecdsa-verify.c"
 
 int main() {
 
@@ -15,6 +16,7 @@ int main() {
     vardata();
     keypair();
     ecdsa_sign();
+    verify();
 
     return 0;
 }
