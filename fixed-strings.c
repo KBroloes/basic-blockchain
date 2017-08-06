@@ -21,8 +21,9 @@ int fixed() {
 
     char expectation[] = "8ba3f768466f6f4261720000000012ee";
 
-    bbp_print_hex("Serialized", ser, sizeof(ser));
-    printf("Expectation: %s", expectation);
+    printf("\n====== Fixed Strings =====\n");
+    bbp_print_hex("Serialized ", ser, sizeof(ser));
+    printf("Expectation: %s\n", expectation);
 
 
     return 0;
