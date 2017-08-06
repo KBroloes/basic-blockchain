@@ -1,6 +1,4 @@
 #include "common.h"
-#include "hash.h"
-#include "stdio.h"
 
 int main() {
     uint8_t n8 = 0x01;
