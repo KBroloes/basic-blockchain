@@ -3,6 +3,7 @@
 #include "hashes.c"
 #include "varints.c"
 #include "vardata.c"
+#include "ec-keypair.c"
 
 int main() {
 
@@ -11,6 +12,7 @@ int main() {
     hashes();
     varints();
     vardata();
+    keypair();
 
     return 0;
 }
