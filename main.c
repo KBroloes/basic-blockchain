@@ -9,6 +9,7 @@
 #include "base58check.c"
 #include "wif.c"
 #include "address.c"
+#include "tx-build.c"
 
 int main() {
 
@@ -23,6 +24,7 @@ int main() {
     base58check();
     wif();
     address();
+    tx_build();
 
     return 0;
 }
