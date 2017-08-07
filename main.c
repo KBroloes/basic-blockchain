@@ -6,6 +6,9 @@
 #include "ec-keypair.c"
 #include "ecdsa-sign.c"
 #include "ecdsa-verify.c"
+#include "base58check.c"
+#include "wif.c"
+#include "address.c"
 
 int main() {
 
@@ -17,6 +20,9 @@ int main() {
     keypair();
     ecdsa_sign();
     verify();
+    base58check();
+    wif();
+    address();
 
     return 0;
 }
