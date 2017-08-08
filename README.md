@@ -1,11 +1,11 @@
 # basic-blockchain
 A stab at trying some basic blockchain programming.
 
-
-Following this blog series as I go along:
+Following this excellent blog series as I go along:
 https://github.com/keeshux/basic-blockchain-programming
 http://davidederosa.com/basic-blockchain-programming/
 
+With a little playing along and fiddling with values and outputs to better understand the subject.
 
 - Create new private key: `openssl ecparam -name secp256k1 -genkey -out ec-priv.pem`
 - Decode key to show hex: `openssl ec -in ec-priv.pem -text -noout`
