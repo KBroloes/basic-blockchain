@@ -10,6 +10,8 @@
 #include "wif.c"
 #include "address.c"
 #include "tx-build.c"
+#include "tx-sign.c"
+#include "tx-pack.c"
 
 int main() {
 
@@ -25,6 +27,8 @@ int main() {
     wif();
     address();
     tx_build();
+    tx_sign();
+    tx_pack();
 
     return 0;
 }
